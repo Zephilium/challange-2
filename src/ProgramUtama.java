@@ -75,6 +75,7 @@ public class ProgramUtama {
                     int median = findMedian(nilai);
                     int modus = findModus(nilai);
                     writeMeanMedian(average, median, modus);
+                    menuAtas();
 
                     System.out.println("File telah di generate di D:/file_challange_2" +
                             "\nSilahkan cek");
